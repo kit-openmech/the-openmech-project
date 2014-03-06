@@ -79,6 +79,8 @@ $verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
 $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
+$segoe-bold:      "Segoe UI Bold", "Lucida Sans Unicode", Segoe UI, Helvetica, Arial, sans-serif;
+$lucida:          "Lucida Grande","Lucida Sans Unicode", Segoe UI, Helvetica, Arial,sans-serif;     
 
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
@@ -88,11 +90,14 @@ $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 $base-font-family: $verdana; // The font family set on the html element.
 $font-body:        $verdana;
 $font-monospace:   $courier;
+$title-font:       $segoe-bold;
 
 
 //
 // Colors, etc.
 //
+$dark-color: #2f2f2f;                 
+$metal-color: #d3d7cf;
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;

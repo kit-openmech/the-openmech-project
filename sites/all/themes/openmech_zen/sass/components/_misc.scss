@@ -77,6 +77,10 @@
  * Branding header.
  */
 
+.header {
+  background-color: $dark-color;
+}
+
 /* Wrapping link for logo. */
 .header__logo {
   float: left;
@@ -87,6 +91,11 @@
 /* Logo image. */
 .header__logo-image {
   vertical-align: bottom;
+  margin-top: 10px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 /* Wrapper for website name and slogan. */
@@ -97,26 +106,38 @@
 /* The name of the website. */
 .header__site-name {
   margin: 0;
+  padding-left: 15px;
+  padding-top: 20px;
   @include adjust-font-size-to( $h1-font-size );
+  font-family: $segoe-bold;
+  //background: -webkit-linear-gradient(rgb(128, 127, 134), rgb(221, 222, 233)); 
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 }
 
 /* The link around the name of the website. */
 .header__site-link {
   &:link,
   &:visited {
-    color: #000;
     text-decoration: none;
+    color: $metal-color;
   }
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $metal-color;
   }
 }
 
 /* The slogan (or tagline) of a website. */
 .header__site-slogan {
   margin: 0;
+  padding-left: 50px;
+  padding-top: 5px;
+  color: #babdb6;
+  font-family: $segoe-bold;
+  line-height: 1.2em;
 }
 
 /* The secondary menu (login, etc.) */
