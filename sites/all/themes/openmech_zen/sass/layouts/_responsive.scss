@@ -24,6 +24,24 @@ $zen-auto-include-item-base: false;
 // Suppress this section of CSS for RTL layouts since it contains no LTR-specific styles.
 @if $zen-reverse-all-floats == false {
 
+/*********************************************************** 
+ * Modified to include a page wrapper to allow the topbar, header, and footer to become full width
+*************************************************************/
+/* Moved #page below header and added page-wrapper tags around header
+   setting the page wrapper at 100% of viewable area
+ * and centering ti.
+ */ 
+#page-wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
 /**
  * Center the page.
  *

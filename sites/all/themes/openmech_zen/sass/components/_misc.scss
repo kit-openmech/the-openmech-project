@@ -77,7 +77,8 @@
  * Branding header.
  */
 
-.header {
+// .header { <- removed and replaced with page-wrapper
+#page-wrapper {
   background-color: $dark-color;
 }
 
