@@ -525,6 +525,89 @@ span.field-label {
   color: #000;
 }
 
+/***
+ * Nice Menus
+ */
+.block-nice-menus ul.nice-menu {
+	display:block; 
+	padding:0; 
+	margin:0; 
+	position:relative; 
+	z-index:100; 
+	background-color: #2f2f2f;
+}
+
+.block-nice-menus ul.nice-menu li {
+	display:inline-block; 
+	float:left; 
+	vertical-align: middle; 
+	padding:0; 
+	margin:0; 
+}
+
+.block-nice-menus ul.nice-menu li a {
+	outline:none; 
+	text-decoration: none; 
+	margin:0 25px 0 0; 
+	padding:10px 5px; 
+	-weight:normal; 
+	text-align:center; 
+	text-transform:uppercase; 
+	font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+	display:block; 
+}
+
+.block-nice-menus ul.nice-menu li a{
+	font-size:14px; 
+}
+
+.block-nice-menus ul.nice-menu li a:hover,
+.block-nice-menus ul.nice-menu li a:active{ 
+	color:#1487d4; 
+}
+
+.block-nice-menus ul.nice-menu li a{ 
+	background:transparent url('images/menu-expanded.png') no-repeat center right; 
+	padding:10px 15px 10px 10px; 
+	text-align: left;
+}
+
+ul.nice-menu,
+ul.nice-menu ul,
+ul.nice-menu li {
+    border: 0;
+    background: #2f2f2f;
+}
+
+ul.nice-menu-right li.menuparent,
+ul.nice-menu-right li li.menuparent{
+    background: #2f2f2f url('arrow-right.png') right center no-repeat; 
+    text-align: left; 
+}
+
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li li.menuparent{
+    background: url('arrow-right.png') right center no-repeat;
+    text-align: left;  
+}
+
+li.menuparent li, 
+li.menuparent ul {
+    background: #2f2f2f;
+}
+
+.block-nice-menus a,
+.block-nice-menus ul.nice-menu li a {
+	color:rgb(221,222,233);
+}
+
+ul.nice-menu li a {
+	color: rgb(221,222,233);
+}
+
+
+
+
 /**
  * Marker.
  */
