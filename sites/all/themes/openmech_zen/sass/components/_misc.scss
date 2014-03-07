@@ -528,6 +528,11 @@ span.field-label {
 /***
  * Nice Menus
  */
+/* Hide nice-menu-hide-title */
+.nice-menu-show-title {
+  display: none;
+}
+
 .block-nice-menus ul.nice-menu {
 	display:block; 
 	padding:0; 

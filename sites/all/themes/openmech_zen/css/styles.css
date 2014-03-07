@@ -1406,7 +1406,13 @@ span.field-label {
 /***
  * Nice Menus
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003531}}
+/* Hide nice-menu-hide-title */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003532}}
+.nice-menu-show-title {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003536}}
 .block-nice-menus ul.nice-menu {
   display: block;
   padding: 0;
@@ -1416,7 +1422,7 @@ span.field-label {
   background-color: #2f2f2f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003545}}
 .block-nice-menus ul.nice-menu li {
   display: inline-block;
   float: left;
@@ -1425,7 +1431,7 @@ span.field-label {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003553}}
 .block-nice-menus ul.nice-menu li a {
   outline: none;
   text-decoration: none;
@@ -1438,25 +1444,25 @@ span.field-label {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003565}}
 .block-nice-menus ul.nice-menu li a {
   font-size: 14px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003570}}
 .block-nice-menus ul.nice-menu li a:hover,
 .block-nice-menus ul.nice-menu li a:active {
   color: #1487d4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003574}}
 .block-nice-menus ul.nice-menu li a {
   background: transparent url("images/menu-expanded.png") no-repeat center right;
   padding: 10px 15px 10px 10px;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003582}}
 ul.nice-menu,
 ul.nice-menu ul,
 ul.nice-menu li {
@@ -1464,33 +1470,33 @@ ul.nice-menu li {
   background: #2f2f2f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003588}}
 ul.nice-menu-right li.menuparent,
 ul.nice-menu-right li li.menuparent {
   background: #2f2f2f url("arrow-right.png") right center no-repeat;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003594}}
 ul.nice-menu-down li.menuparent,
 ul.nice-menu-down li li.menuparent {
   background: url("arrow-right.png") right center no-repeat;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003600}}
 li.menuparent li,
 li.menuparent ul {
   background: #2f2f2f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003600}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003605}}
 .block-nice-menus a,
 .block-nice-menus ul.nice-menu li a {
   color: #dddee9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003609}}
 ul.nice-menu li a {
   color: #dddee9;
 }
@@ -1499,7 +1505,7 @@ ul.nice-menu li a {
  * Marker.
  */
 /* The "new" or "updated" marker. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003622}}
 .new,
 .update {
   color: #c00;
@@ -1511,7 +1517,7 @@ ul.nice-menu li a {
  * Unpublished note.
  */
 /* The word "Unpublished" displayed underneath the content. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003633}}
 .unpublished {
   height: 0;
   overflow: visible;
@@ -1532,31 +1538,31 @@ ul.nice-menu li a {
  * Comments.
  */
 /* Wrapper for the list of comments and its title. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003656}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003661}}
 .comments {
   margin: 1.5em 0;
 }
 
 /* Preview of the comment before submitting new or updated comment. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003666}}
 .comment-preview {
   /* Drupal core will use a #ffffea background. See #1110842. */
   background-color: #ffffea;
 }
 
 /* Wrapper for a single comment. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003672}}
 .comment {
   /* Comment's permalink wrapper. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003675}}
 .comment .permalink {
   text-transform: uppercase;
   font-size: 75%;
 }
 
 /* Nested comments are indented. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003682}}
 .indented {
   /* Drupal core uses a 25px left margin. */
   margin-left: 30px;
@@ -1566,7 +1572,7 @@ ul.nice-menu li a {
  * Forms.
  */
 /* Wrapper for a form element (or group of form elements) and its label. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003692}}
 .form-item {
   margin: 1.5em 0;
   /* Pack groups of checkboxes and radio buttons closer together. */
@@ -1574,47 +1580,47 @@ ul.nice-menu li a {
   /* Highlight the form elements that caused a form submission error. */
   /* The descriptive help text (separate from the label). */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003697}}
 .form-checkboxes .form-item, .form-radios .form-item {
   /* Drupal core uses "0.4em 0". */
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003699}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003704}}
 tr.odd .form-item, tr.even .form-item {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003711}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   border: 1px solid #c00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003716}}
 .form-item .description {
   font-size: 0.85em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003718}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003723}}
 .form-type-radio .description,
 .form-type-checkbox .description {
   margin-left: 2.4em;
 }
 
 /* The part of the label that indicates a required field. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003729}}
 .form-required {
   color: #c00;
 }
 
 /* Labels for radios and checkboxes. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003734}}
 label.option {
   display: inline;
   font-weight: normal;
 }
 
 /* Buttons used by contrib modules like Media. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003740}}
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -1622,14 +1628,14 @@ a.button {
 }
 
 /* Password confirmation. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003741}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003746}}
 .password-parent,
 .confirm-parent {
   margin: 0;
 }
 
 /* Drupal's default login form block. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003751}}
 #user-login-form {
   text-align: left;
 }
@@ -1641,27 +1647,27 @@ a.button {
  * styling of list items.
  */
 /* OpenID creates a new ul above the login form's links. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003763}}
 .openid-links {
   /* Position OpenID's ul next to the rest of the links. */
   margin-bottom: 0;
 }
 
 /* The "Log in using OpenID" and "Cancel OpenID login" links. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003770}}
 .openid-link,
 .user-link {
   margin-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003774}}
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* Un-do some of the padding on the ul list. */
   margin-left: -20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003778}}
 #user-login ul {
   margin: 1.5em 0;
 }
@@ -1669,22 +1675,22 @@ html.js #user-login-form li.openid-link,
 /**
  * Drupal admin tables.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003786}}
 form th {
   text-align: left;
   padding-right: 1em;
   border-bottom: 3px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003791}}
 form tbody {
   border-top: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003789}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003794}}
 form table ul {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003799}}
 tr.even,
 tr.odd {
   background-color: #eee;
@@ -1692,26 +1698,26 @@ tr.odd {
   padding: 0.1em 0.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003804}}
 tr.even {
   background-color: #fff;
 }
 
 /* Markup generated by theme_tablesort_indicator(). */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003819}}
 td.active {
   background-color: #ddd;
 }
 
 /* Center checkboxes inside table cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003825}}
 td.checkbox,
 th.checkbox {
   text-align: center;
 }
 
 /* Drupal core wrongly puts this in system.menus.css. Since we override that, add it back. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003830}}
 td.menu-disabled {
   background: #ccc;
 }
@@ -1722,7 +1728,7 @@ td.menu-disabled {
  * @see autocomplete.js
  */
 /* Suggestion list. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003841}}
 #autocomplete .selected {
   background: #0072b9;
   color: #fff;
@@ -1733,19 +1739,19 @@ td.menu-disabled {
  *
  * @see collapse.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003847}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003852}}
 html.js .collapsible .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
   background-position: 5px 65%;
   background-repeat: no-repeat;
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003861}}
 html.js .collapsed .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC');
   background-position: 5px 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003863}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003868}}
 .fieldset-legend .summary {
   color: #999;
   font-size: 0.9em;
@@ -1757,17 +1763,17 @@ html.js .collapsed .fieldset-legend {
  *
  * @see tabledrag.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003875}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003880}}
 tr.drag {
   background-color: #fffff0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003878}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003883}}
 tr.drag-previous {
   background-color: #ffd;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003881}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003886}}
 .tabledrag-toggle-weight {
   font-size: 0.9em;
 }
@@ -1777,7 +1783,7 @@ tr.drag-previous {
  *
  * @see tableselect.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003890}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003895}}
 tr.selected td {
   background: #ffc;
 }
@@ -1787,11 +1793,11 @@ tr.selected td {
  *
  * @see progress.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003899}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003904}}
 .progress {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003907}}
 .progress .bar {
   background: #ccc;
   border-color: #666;
@@ -1802,7 +1808,7 @@ tr.selected td {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003908}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/kit\/public\/openmech\.org\/public\/sites\/all\/themes\/openmech_zen\/sass\/components\/_misc\.scss}line{font-family:\00003913}}
 .progress .filled {
   background-color: #0072b9;
   background-image: url('../images/progress.gif?1376896851');
