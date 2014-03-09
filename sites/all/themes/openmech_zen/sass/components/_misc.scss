@@ -94,7 +94,7 @@
   vertical-align: bottom;
   margin-top: 10px;
   padding-left: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: 100px;
   height: 100px;
 }
@@ -525,6 +525,89 @@ span.field-label {
   color: #000;
 }
 
+/* Menus */
+/* Added this from Corporate Clean */
+/*
+h2.block-title {
+	display: none;
+}
+
+.block-main-menu ul.menu,
+.menu-2 ul.menu {
+	display:block; 
+	padding:0; 
+	margin:0; 
+	position:relative; 
+	z-index:100; 
+	background-color: #2f2f2f;
+}
+
+.block-main-menu ul.menu li, 
+.menu-2 ul.menu li {
+	display:inline-block; 
+	float:left; 
+	vertical-align: middle; 
+	padding:0; 
+	margin:0; 
+}
+
+.block-main-menu ul.menu li a,
+.menu-2 ul.menu li a {
+	outline:none; 
+	text-decoration: none; 
+	margin:0 25px 0 0; 
+	padding:10px 5px; 
+	-weight:normal; 
+	text-align:center; 
+	text-transform:uppercase; 
+	font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+	display:block; 
+	background-color:transparent;
+}
+
+.block-main-menu ul.menu li a {
+	font-size:14px; 
+}
+
+.menu-2 ul.menu li a { 
+	font-size:10px; 
+}
+
+.block-main-menu ul.menu li.first a { 
+	padding-left:0; 
+}
+
+.block-main-menu ul.menu li.last a { 
+	padding-right:0; 
+}
+
+.block-main-menu ul.menu li a:hover, 
+.block-main-menu ul.menu li a.active,
+.menu-2 ul.menu li a:hover { 
+	color:#1487d4; 
+}
+
+.block-main-menu ul.menu li a:after, 
+.block-nice-menus ul.nice-menu li a:after { 
+	content: none; 
+}
+
+.block-main-menu ul.menu li.expanded { 
+	position: relative; 
+}
+
+.block-main-menu ul.menu li.expanded a { 
+	background:transparent url('images/menu-expanded.png') no-repeat center right; 
+	padding:10px 15px 10px 10px; 
+}
+
+.block-main-menu a, 
+.block-main-menu ul.menu li a,
+.menu-2 a, 
+.menu-2 ul.menu li a {
+	color:rgb(221,222,233);
+}*/
+
 /***
  * Nice Menus
  */
@@ -534,7 +617,7 @@ span.field-label {
 }
 
 .block-nice-menus ul.nice-menu {
-	display:block; 
+	display:inline; 
 	padding:0; 
 	margin:0; 
 	position:relative; 
@@ -553,7 +636,7 @@ span.field-label {
 .block-nice-menus ul.nice-menu li a {
 	outline:none; 
 	text-decoration: none; 
-	margin:0 25px 0 0; 
+	margin:0 15px 0 0; 
 	padding:10px 5px; 
 	-weight:normal; 
 	text-align:center; 
