@@ -551,8 +551,8 @@ h2.block-title {
 	margin:0; 
 }
 
-.block-main-menu ul.menu li a,
-.menu-2 ul.menu li a {
+
+.header-secondary-menu ul.links li a {
 	outline:none; 
 	text-decoration: none; 
 	margin:0 25px 0 0; 
@@ -563,6 +563,7 @@ h2.block-title {
 	font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
 	display:block; 
 	background-color:transparent;
+	color: #fff;
 }
 
 .block-main-menu ul.menu li a {
@@ -633,7 +634,8 @@ h2.block-title {
 	margin:0; 
 }
 
-.block-nice-menus ul.nice-menu li a {
+.block-nice-menus ul.nice-menu li a, 
+.header__secondary-menu ul.links li a {
 	outline:none; 
 	text-decoration: none; 
 	margin:0 15px 0 0; 
@@ -642,15 +644,23 @@ h2.block-title {
 	text-align:center; 
 	text-transform:uppercase; 
 	font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
-	display:block; 
+	//display:block; 
 }
 
 .block-nice-menus ul.nice-menu li a{
 	font-size:14px; 
 }
 
+.header__secondary-menu ul.links li a {
+	color:#dddee9;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
 .block-nice-menus ul.nice-menu li a:hover,
-.block-nice-menus ul.nice-menu li a:active{ 
+.block-nice-menus ul.nice-menu li a:active,
+.header__secondary-menu ul.links li a:hover,
+.header__secondary-menu ul.links li a:active { 
 	color:#1487d4; 
 }
 
@@ -693,7 +703,10 @@ ul.nice-menu li a {
 	color: rgb(221,222,233);
 }
 
-
+// overide the nice menu property of clear: both
+ul.nice-menu:after {
+  clear: none;
+}
 
 
 /**
