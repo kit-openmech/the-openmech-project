@@ -73,6 +73,7 @@
       <?php print $feed_icons; ?>
     </div>
 
+
     <div id="navigation">
 
       <?php if ($main_menu): ?>

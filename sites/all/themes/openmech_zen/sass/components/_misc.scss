@@ -31,6 +31,10 @@
   }
 }
 
+#main {
+	padding-top: 1em;
+	}
+
 /**
  * Accessibility features.
  */
@@ -149,7 +153,29 @@
 /* Wrapper for any blocks placed in the header region. */
 .header__region {
   /* Clear the logo. */
-  clear: both;
+  clear: none;
+}
+
+/*************************
+ *   Search
+ *************************/
+
+.block-search {
+  float: right;
+}
+
+#edit-search-block-form--2 {  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border:$metal-color;
+  background:white url("../images/search.png") no-repeat 4px 3px;
+  margin: 5px 50px 2px 2px;
+}
+
+#search-block-form input.form-submit,
+#search--form input.form-submit {
+  display: none;
 }
 
 /**
@@ -194,7 +220,7 @@
     padding: 0;
   }
   li {
-    display: inline;
+    display: inline; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -612,6 +638,12 @@ h2.block-title {
 /***
  * Nice Menus
  */
+
+.block-nice-menus {
+  clear:both;
+}
+
+
 /* Hide nice-menu-hide-title */
 .nice-menu-show-title {
   display: none;
